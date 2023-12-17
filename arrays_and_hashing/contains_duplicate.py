@@ -1,3 +1,8 @@
+"""
+217. Contains Duplicate (Easy)
+https://leetcode.com/problems/contains-duplicate/
+"""
+
 class Solution(object):
     def containsDuplicate(self, nums):
         # Initializes a set to store unique numbers, uses a set instead of an array because adding is O(1) instead of O(N).
