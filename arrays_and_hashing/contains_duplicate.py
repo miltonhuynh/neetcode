@@ -4,7 +4,7 @@ https://leetcode.com/problems/contains-duplicate/
 """
 
 class Solution(object):
-    def containsDuplicate(self, nums):
+    def containsDuplicate(self, nums: List[int]) -> bool:
         # Initializes a set to store unique numbers, uses a set instead of an array because adding is O(1) instead of O(N).
         nums_set = set()
         # Iterates through input array of numbers.

@@ -1,5 +1,5 @@
 class Solution(object):
-    def isAnagram(self, s, t):
+    def isAnagram(self, s: str, t: str) -> bool:
         # Two words must be the same length to be an anagram.
         if len(s) != len(t):
             return False
