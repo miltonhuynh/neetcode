@@ -1,3 +1,8 @@
+"""
+242. Valid Anagram (Easy)
+https://leetcode.com/problems/valid-anagram/description/
+"""
+
 class Solution(object):
     def isAnagram(self, s: str, t: str) -> bool:
         # Two words must be the same length to be an anagram.
