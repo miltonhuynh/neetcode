@@ -24,7 +24,7 @@ class Solution:
             # Character is opening, add to top of stack
             else:
                 stack.append(char)
-        # Stack must be empty at end to return True.
+        # Stack must be empty at end to return True
         return True if not stack else False
 
 
