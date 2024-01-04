@@ -11,7 +11,7 @@ class Solution:
         # Initializes a new empty string to store new string with only alphanumeric characters
         newStr = ""
 
-        # Iterates through input string and adds to new string if character is alphanumeric.
+        # Iterates through input string and adds to new string if character is alphanumeric
         for i in s:
             if i.isalnum():
                 # Ignores cases
