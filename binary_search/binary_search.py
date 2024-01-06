@@ -11,10 +11,10 @@ class Solution:
             # If midpoint is target, return mid index
             if nums[mid] == target:
                 return mid
-            # Adjusts pointers based on whether target is less than or greater than midpoint.
+            # Adjusts pointers based on whether target is less than or greater than midpoint
             elif target < nums[mid]:
                 high = mid - 1
             else:
                 low = mid + 1
-        # If while loop completes without returning mid index, value is not in array.
+        # If while loop completes without returning mid index, value is not in array
         return -1
