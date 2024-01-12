@@ -4,7 +4,7 @@ class Solution:
         low = 0
         high = len(nums) - 1
 
-        # Runs until the two pointers are the same.
+        # Runs until the two pointers are the same
         while low <= high:
             # Calculates the midpoint of the two pointers
             mid = (low + high) // 2
