@@ -21,7 +21,7 @@ class Solution:
 
 
 """
-Optimal solution, does not use extra memory.
+Optimal solution, does not use extra memory
 """
 
 
