@@ -7,6 +7,7 @@ https://leetcode.com/problems/two-sum/description/
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Creates a dictionary that maps each value to the index of that value.
+        # Need dictionary since each entry holes index and distance from target.
         map = {}
 
         # Iterates through the array checking each number for their matches
